@@ -43,8 +43,6 @@ The dataset contains financial and demographic features such as:
 * Encoded categorical variables
 * Scaled numerical features using StandardScaler
 
-> Note: Original (unscaled) data is preserved for fairness analysis.
-
 ---
 
 ### 2. Model Training
@@ -70,7 +68,7 @@ The dataset contains financial and demographic features such as:
   * Accuracy per group
   * Selection rate (prediction rate)
 
-> Fairness evaluation is done using original education values for interpretability.
+> Fairness evaluation shows original education values for interpretability.
 
 ---
 
